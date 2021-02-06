@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#eeecf4;
+}
+a{
+	text-decoration:none;
+}
+a:active{
+	color:red;
+}
+a:visited{
+	color:black;
+}
+.kayit-giris{
+	font-size:25px;
+	color:orange;
+}
+.header{
+	background-color:#2de6a8;
+	display:flex;
+	justify-content:space-between;
+}
+.kayit-giris{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	padding-right:2%;
+}
+.kayit-giris .giris{
+	margin-right:0.55em;
+}
+.logo{
+	width:100px;
+	height:100px;
+	margin-left:3%;
+}
