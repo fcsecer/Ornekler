@@ -37,3 +37,42 @@ a:visited{
 	height:100px;
 	margin-left:3%;
 }
+.footer{
+	padding-top:2em;
+	margin-top:5em;
+	background-color:#2de6a8;
+	height:100px;
+}
+.p-footer{
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+}
+.container{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	height:50%;
+	margin-top:5em;
+}
+
+.first-content{
+	border: solid;
+	width:50%;
+}
+.first-content p{
+	display:flex;
+	justify-content:center;
+	padding-top:20%;
+}
+.second-content{
+	border: solid;
+	width:50%;
+	align-items:center;
+}
+.second-content p{
+	display:flex;
+	justify-content:center;
+	padding-top:20%;
+}
