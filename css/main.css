@@ -76,3 +76,23 @@ a:visited{
 	justify-content:center;
 	padding-top:20%;
 }
+.link{
+	background-color: green;
+}
+.link2{
+	background-color: yellow;	
+}
+
+.mail-at{
+	display: none;
+}
+
+  @media only screen and (max-width: 500px) {
+	.mail-at{
+	display: block;
+	width: 100%;
+	background-color: green;  
+	height: 50px;
+	font-size: 20px;
+	}
+  }
